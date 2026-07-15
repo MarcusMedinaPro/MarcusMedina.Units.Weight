@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MarcusMedina.Units.Weight/MarcusMedina.Units.Weight.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MarcusMedina.Units.Weight.Tests/MarcusMedina.Units.Weight.Tests.csproj" />
+  </Folder>
+</Solution>
