@@ -6,12 +6,13 @@
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <PackageId>MarcusMedina.Units.Weight</PackageId>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Title>MarcusMedina.Units.Weight</Title>
     <Description>Fluent weight unit conversion — metric, British (imperial + Troy + Apothecary), US customary, and historical Swedish units.</Description>
     <Authors>Marcus Medina</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/MarcusMedinaPro/MarcusMedina.Units.Weight/wiki</PackageProjectUrl>
     <RepositoryUrl>https://github.com/MarcusMedinaPro/MarcusMedina.Units.Weight</RepositoryUrl>
     <PackageTags>weight;units;conversion;fluent;metric;imperial;british;swedish;troy</PackageTags>
     <NoWarn>CS1573;CS1591</NoWarn>
