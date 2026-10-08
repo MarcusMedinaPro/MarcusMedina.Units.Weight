@@ -21,13 +21,13 @@ public static class MetricWeightExtensions
     public static Weight Decigrams(this double v) => new(v * 0.1);
     public static Weight Grams(this int v) => new(v);
     public static Weight Grams(this double v) => new(v);
-    public static Weight Decagrams(this int v) => new(v * 10);
+    public static Weight Decagrams(this int v) => new(v * 10.0);
     public static Weight Decagrams(this double v) => new(v * 10);
-    public static Weight Hectograms(this int v) => new(v * 100);
+    public static Weight Hectograms(this int v) => new(v * 100.0);
     public static Weight Hectograms(this double v) => new(v * 100);
-    public static Weight Kilograms(this int v) => new(v * 1000);
+    public static Weight Kilograms(this int v) => new(v * 1000.0);
     public static Weight Kilograms(this double v) => new(v * 1000);
-    public static Weight Tonnes(this int v) => new(v * 1_000_000);
+    public static Weight Tonnes(this int v) => new(v * 1_000_000.0);
     public static Weight Tonnes(this double v) => new(v * 1_000_000);
 
     public static double ToNanograms(this Weight w) => w.Grams / 1e-9;
